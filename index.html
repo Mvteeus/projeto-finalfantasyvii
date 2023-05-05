@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./src/imagens/favicon-32x32.png" type="image/x-icon">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+    <title>Final Fantasy VII</title>
+</head>
+
+<body>
+
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source
+                src="./src/video/Final Fantasy 7_ Advent Children Complete 4K Remastered - Official Trailer (2021) (1).mp4"
+                type="video/mp4">
+        </video>
+    </div>
+
+    <header class="cabecalho">
+        <a>
+            <img class="logo" src="./src/imagens/929181-middle.png" alt="logo Final Fantasy">
+        </a>
+        <nav class="menu">
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="informacoes">
+            <img class="imagem-titulo" src="./src/imagens/logo escrita.png" alt="imagem do título do jogo">
+            <p class="descricao">A história segue Cloud Strife, um mercenário que junta-se a uma organização ecoterrorista a fim de impedir que a megacorporação Shinra use a essência vital do planeta como uma fonte de energia. <br/>Acontecimentos colocam Cloud e seus aliados atrás de Sephiroth, um "super-humano" que deseja destruir o planeta.</p>
+            <button class="botao-trailer">Veja o Trailer</button>
+        </div>
+        <img class="finalfantasy" src="./src/imagens/ff chars.png" alt="imagem dos personagens do jogo" />
+    
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/fNJ1y9YUiLY" title="Trailer Oficial" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    
+    </main>
+
+    <script src="./src/js/index.js"></script>
+
+</body>
+
+</html>
